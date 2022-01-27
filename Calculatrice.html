@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ma calculatrice</title>
+</head>
+<body>
+
+     <!-- titre de la calculatrice ( 1er rangée )-->
+     <div class="titreCalculatrice">
+        <h1>Ma Calculatrice</h1>
+    </div>
+
+    <!-- section pour creer la grille de la calculatrice -->
+    <section class="calculatrice">
+
+        <!-- affichache des résultat de la calculatrice ( 1 eme rangée )-->
+        <div class="affichage" id="resultat">
+           Affichage du resultat
+        </div>
+
+        <!-- 1er ligne de bouton ( AC +/- %  et / , 2 eme rangée )-->
+        <div class="ligneBouton">
+            
+            <div class="boutonSpeciale" id="AC">AC</div>
+
+            <div class="boutonSpeciale" id="casePlusMoins">+/-</div>
+
+            <div class="boutonSpeciale" id="casePourcentage">%</div>
+
+            <div class="boutonOrange" id="caseDiviser">/</div>
+
+        </div>
+
+        <!-- 2eme ligne de bouton ( 7 8 9 * , 3 eme rangée) -->
+        <div class="ligneBouton">
+            
+            <div class="bouton" id="caseSept">7</div>
+            
+            <div class="bouton" id="caseHuit">8</div>
+            
+            <div class="bouton" id="caseNeuf">9</div>
+            
+            <div class="boutonOrange" id="caseMultiplier">*</div>
+
+        </div>
+
+        <!-- 3eme ligne de bouton ( 4 5 6 - , 4 eme rangée ) -->
+        <div class="ligneBouton">
+           
+            <div class="bouton" id="caseQuatre">4</div>
+            
+            <div class="bouton" id="caseCinq">5</div>
+            
+            <div class="bouton" id="caseSix">6</div>
+            
+            <div class="boutonOrange" id="caseMoins">-</div>
+
+        </div>
+
+        <!-- 4 eme ligne de bouton ( 1 2 3 + , 5 eme rangée ) -->
+        <div class="ligneBouton">
+           
+            <div class="bouton" id="caseUn">1</div>
+            
+            <div class="bouton" id="caseDeux">2</div>
+            
+            <div class="bouton" id="caseTrois">3</div>
+            
+            <div class="boutonOrange" id="casePlus">+</div>
+           
+        </div>
+
+        <!-- 5 eme ligne de bouton ( 0 virgule égal , 6 eme rangée -->
+        <div class="derniereLigneBouton">
+
+            <div class="bouton" id="caseZero">0</div>
+            
+            <div class="bouton" id="caseVirgule">,</div>
+            
+            <div class="boutonOrange" id="caseEgale">=</div>
+        </div>
+    
+    </section>
+
+    <script type="text/javascript" src="calculatrice.js" >
+
+    </script>
+
+</body>
+</html>
